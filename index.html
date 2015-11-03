@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="calculador.js"></script>
+    <title>Volumenes.</title>
+</head>
+<body>
+    <div align="center">
+        Volumen de un prisma:
+        <table>
+            <tr>
+                <td>Altura</td>
+                <td><input type="number" id="altura" /></td>
+            </tr>
+            <tr>
+                <td>Arista basal</td>
+                <td><input type="number" id="base" /></td>
+            </tr>
+            <tr>
+                <td>Lados polígono basal</td>
+                <td><input type="number" id="poli" /></td>
+            </tr>
+            <tr>
+                <td>Radio</td>
+                <td><input type="number" id="radio" /></td>
+            </tr>
+            <tr><td></td><td></td><td><input type="submit" onclick="prisma()" /></td></tr>
+            
+            <tr>
+                <td>(Valores en metros.)</td>
+
+                <td>
+                    El volumen es de:
+                    <p id="consola">---</p>
+                </td>
+                <td>m3</td>
+                
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

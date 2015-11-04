@@ -14,11 +14,14 @@ function prisma() {
         //Excepto si el numero de lados es 4, es decir, tenemos un paralelogramo como polígono de base se siguen estas instrucciones
         if (p.value != 4 && p.value != 3) {
             //Se chequea que el usuario haya rellenado los campos necesarios
-            if (h.value, b.value, p.value, r.value == null, 0) {
+            if (p.value != 4 && p.value != 3) {
+            //Se chequea que el usuario haya rellenado los campos necesarios
+            if (h.value, b.value, p.value == null || h.value, b.value, p.value == 0) {
                 alert("Rellena todos los campos");
                 return;
-            } else if (h.value, b.value, p.value, r.value == 1, 2) {
+            } else if (p.value == 1 || p.value == 2) {
                 alert("Un poligono no puede tener 1 o 2 lados!");
+                return;
             }
             //Calculo el apotema de la base (de forma muy rudimentaria...)
             var aaa = (b.value / 2) * (b.value / 2)

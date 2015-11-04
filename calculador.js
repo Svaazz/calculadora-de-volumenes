@@ -18,7 +18,7 @@ function prisma() {
                 alert("Rellena todos los campos");
                 return;
             } else if (h.value, b.value, p.value, r.value == 1, 2) {
-                alert("Un polígono no puede tener 1 o 2 lados!");
+                alert("Un pol&iacute;gono no puede tener 1 o 2 lados!");
             }
             //Calculo el apotema de la base (de forma muy rudimentaria...)
             var aaa = (b.value / 2) * (b.value / 2)
